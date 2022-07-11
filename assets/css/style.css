@@ -115,3 +115,10 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+.footer-image {
+  bottom:0!important;
+  left:15%!important;
+  height:45%!important;
+  width:auto;
+  position:absolute!important;
+}
