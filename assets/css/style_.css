@@ -194,6 +194,10 @@ p {
 /*
  * Footer
  */
+.footer-notice {
+  font-size:1.75em;
+  padding:20px 0;
+}
 .mastfoot {
   color:rgba(255, 255, 255, .5);
 }
