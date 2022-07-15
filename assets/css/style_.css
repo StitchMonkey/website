@@ -7,8 +7,12 @@
 /* Links */
 a,
 a:focus,
-a:hover {
+a:hover,
+a:active {
   color: #fff;
+  font-weight:400;
+  text-decoration:none;
+  border-bottom: dashed 1px #fff;
 }
 
 /* Custom default button */
@@ -19,7 +23,7 @@ a:hover {
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
-  border-style: dashed;
+  border-style: none none dashed none;
 }
 
 
@@ -169,7 +173,7 @@ p {
 .roadmap-header {
   font-size:1.25em;
   font-weight:700;
-  border-bottom:1px solid #eee;
+  border-bottom:4px solid #eee;
   border-style: none none dashed none;
   margin:0 auto;
   width:25%;
