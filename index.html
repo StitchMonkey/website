@@ -5,10 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
 
 		<title>Stitch Monkey</title>
 		<link href="assets/css/style.css" rel="stylesheet">
@@ -38,23 +38,25 @@
 			<main role="main" class="inner cover">
 				<div class="container">
 					<div class="offset-sm-1 col-sm-10">
-						<div class="row">
-							<img src="assets/images/lab_beta.jpg" class="img">
-						</div>
-						<div class="row mtop50">
-							<h2>THE LAB <span class="header-alt">(aka the &ldquo;Degenverse&rdquo;)</span></h2>
-							<p class="offset-sm-2 col-sm-8">Inside a dark lab, using only the finest tools crafted from the metaverse and powered by the Solana blockchain, only the brave will be allowed to carve out their own creations (limited to 5,555). After obtaining the first generation of Stitch Monkeys, holders will have access to a secret lab, where they will be able to combine portions of their collections in order to re-construct a second generation of Stitch Monkeys, completely and wholly unique to their own liking. No two second-gen PFPs will be the same.</p>
-						</div>
+						<div class="block">
+							<div class="row">
+								<img src="assets/images/stitch_lab.jpg" class="img">
+							</div>
+							<div class="row block mtop50" data-color="#000">
+								<h2>THE LAB <span class="header-alt">aka &ldquo;Degenverse&rdquo;</span></h2>
+								<p class="offset-sm-2 col-sm-8">Inside a dark lab, using only the finest tools crafted from the metaverse and powered by the Solanachain, only the brave will be allowed to carve out their own creations (limited to 5,555). After obtaining the first generation of Stitch Monkeys, holders will have access to a secret lab, where they will be able to combine portions of their collections in order to re-construct a second generation of Stitch Monkeys, completely and wholly unique to their own liking. No two second-gen PFPs will be the same.</p>
+							</div>
 
-						<div class="row mtop50 text-center">
-							<div class="col md-12 medal-img"><img src="assets/images/medals.png"></div>
+							<div class="row mtop50 text-center">
+								<div class="col md-12 medal-img"><img src="assets/images/medals.png"></div>
+							</div>
 						</div>
 
 						<div class="divider"></div>
 
-						<div class="row">
+						<div class="row block" data-color="#4d0000">
 							<div class="col-lg-6">
-								<img src="assets/images/asset2.png" class="img">
+								<img src="assets/images/asset1.jpg" class="img">
 							</div>
 							<div class="col-lg-6 mtop50">
 								<h2>MANIFESTO</h2>
@@ -79,7 +81,7 @@
 
 						<div class="divider"></div>
 
-						<div class="row">
+						<div class="row block" data-color="#0e2e2a">
 							<div class="col-lg-6 mtop50">
 								<h2>ROADMAP</h2>
 								<div class="roadmap">
@@ -106,7 +108,7 @@
 
 						<div class="divider"></div>
 
-						<div class="row">
+						<div class="row block" data-color="#020036">
 							<h2>FAQ</h2>
 							<p class="block-text-left">
 								<span class="faq-ques">Discord wen?</span><br>
@@ -137,7 +139,7 @@
 
 						<div class="divider"></div>
 
-						<div class="row footer-alert">
+						<div class="row block footer-alert">
 							<div class="alert alert-dark footer-notice">&#128148;&#128586;&#129514; more info to come soon!</div>
 						</div>
 
@@ -149,5 +151,20 @@
 			</main>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<script>
+			document.onscroll = function() {
+				scrollTop = document.documentElement.scrollTop;
+				blocks = document.getElementsByClassName('block');
+				for(i=0; i< blocks.length; i++) {
+					curDiv = blocks[i];
+					heightBefore = 0;
+					if(i > 0) heightBefore = blocks[i-1].offsetHeight;
+					if(scrollTop > ((curDiv.offsetTop - heightBefore) - 100)) {
+						color = curDiv.getAttribute("data-color");
+						document.body.style.background = color;
+					}
+				}
+			};
+		</script>
 	</body>
 </html>
