@@ -94,6 +94,13 @@ p {
   border:3px solid #555;
   border-style:none none dashed none;
 }
+.block-text-left {
+  text-align:left;
+  margin-left:20px;
+}
+.text-subset {
+  font-size:0.7em;
+}
 
 /*
  * Header
@@ -220,11 +227,6 @@ p {
 }
 .mastfoot {
   color:rgba(255, 255, 255, .5);
-}
-
-.block-text-left {
-  text-align:left;
-  margin-left:20px;
 }
 
 @media (max-width:1355px) {
