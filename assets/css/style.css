@@ -68,6 +68,7 @@ h2 {
 .header-alt {
   font-family:'Patrick Hand', serif;
   font-size:0.5em;
+  line-height:0.5em;
 }
 p {
   font-size:1.25em;
@@ -153,6 +154,10 @@ p {
 .social-links {
   height:36px;
   width:auto;
+}
+.header-text-main {
+  line-height:0.5em;
+  margin-bottom:50px;
 }
 
 @media (min-width:48em) {
