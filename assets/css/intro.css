@@ -23,6 +23,9 @@ body {
 	padding-top:40px;
 	padding-bottom:40px;
 }
+main {
+	max-width:500px;padding:15px
+}
 .logo,.face {
 	border:0;
 	width:75%;
@@ -33,16 +36,19 @@ body {
 	display:inline-block;
 	transition:1s ease;
 	backface-visiblity:hidden;
-	border-radius:10%;
+	border-radius:4%;
+	width:45%
 }
 .logo:hover,.logo:active {
-	opacity:0.1;
+	opacity:0.3;
 }
 .face {
 	transition:1s ease;
 	opacity:0;
-	margin-top:-68%;
-	border-radius:10%;
+	margin-top:-43%;
+	width:450px;
+	border-radius:45%;
+	box-shadow:0 0 100px 10px #000;
 }
 .face:hover,.logo:active {
 	opacity:1;
