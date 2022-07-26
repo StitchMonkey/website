@@ -41,7 +41,7 @@ body {
 .face {
 	transition:1s ease;
 	opacity:0;
-	margin-top:-67%;
+	margin-top:-68%;
 	border-radius:10%;
 }
 .face:hover,.logo:active {
