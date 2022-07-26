@@ -76,6 +76,10 @@ h2 {
 p {
   font-size:1.25em;
 }
+.img-header {
+  width:100%;
+  height:auto;
+}
 .img {
   width:100%;
   height:auto;
@@ -251,6 +255,9 @@ p {
 @media (max-width:991px) {
   h2 {
     font-size:3em;
+  }
+  .img,.img-coming-soon {
+    width:75%
   }
   .block-text-left {
     margin-left:0;
