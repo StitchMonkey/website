@@ -54,6 +54,11 @@ main {
 	opacity:1;
 }
 
+@media (max-width:520px) {
+	.face {
+		width:350px;
+	}
+}
 @keyframes color {
 	0% {
 		background-color:#000;
