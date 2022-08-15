@@ -1,72 +1,18 @@
-/*
- * Globals
- */
-
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700&family=Reenie+Beanie&family=Patrick+Hand&display=swap');
-
 * {
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
 }
-html,
-body {
+html,body {
 	height:100%;
 }
 body {
 	background-color:#000;
-	animation-name:color;
-	animation-duration:5s;
-	animation-iteration-count:infinite;
 	display:flex;
 	align-items:center;
-	padding-top:40px;
-	padding-bottom:40px;
-}
-main {
-	max-width:500px;padding:15px
-}
-.logo,.face {
-	border:0;
-	width:75%;
-	height:100%;
 }
 .logo {
-	opacity:1;
-	display:inline-block;
-	transition:1s ease;
-	backface-visiblity:hidden;
-	border-radius:4%;
-	width:45%
-}
-.logo:hover,.logo:active {
-	opacity:0.3;
-}
-.face {
-	transition:1s ease;
-	opacity:0;
-	margin-top:-43%;
-	width:450px;
-	border-radius:45%;
-	box-shadow:0 0 100px 10px #000;
-}
-.face:hover,.logo:active {
-	opacity:1;
-}
-
-@media (max-width:520px) {
-	.face {
-		width:350px;
-	}
-}
-@keyframes color {
-	0% {
-		background-color:#000;
-	}
-	50% {
-		background-color:#800b80;
-	}
-	100 {
-		background-color:#000;
-	}
+	border:0;
+	width:100%;
+	height:auto;
 }

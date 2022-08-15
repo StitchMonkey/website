@@ -85,10 +85,9 @@ p {
   height:auto;
 }
 .img-coming-soon {
-  width:50%;
+  width:100%;
   height:auto;
-  margin:0 auto 35px;
-  border-radius:10%;
+  margin:0 auto 40px;
 }
 .avatar-img {
   border-radius:50%;
@@ -266,8 +265,11 @@ p {
   h2 {
     font-size:3em;
   }
-  .img,.img-coming-soon {
+  .img {
     width:75%
+  }
+  .img-coming-soon {
+    margin:0 auto 10px;
   }
   .block-text-left {
     margin-left:0;
