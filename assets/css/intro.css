@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700&family=Reenie+Beanie&family=Patrick+Hand&display=swap');
+
 * {
 	margin:0;
 	padding:0;
@@ -8,8 +10,18 @@ html,body {
 }
 body {
 	background-color:#030303;
+	font-family:'Jost', sans-serif;
 	display:flex;
 	align-items:center;
+}
+.head {
+	margin-right:2%;
+}
+.head-text a {
+	border:dashed 2px !important;
+}
+.head-text a:hover {
+	border:solid 2px !important;
 }
 .logo {
 	border:0;
@@ -28,5 +40,8 @@ body {
 	}
 	.view-mobile {
 		display:block;
+	}
+	.head {
+		margin-bottom:5%;
 	}
 }
