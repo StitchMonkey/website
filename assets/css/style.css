@@ -124,6 +124,13 @@ p {
 .text-subset {
   font-size:0.7em;
 }
+#btn-top {
+  display:none;
+  position:fixed;
+  bottom:10%;
+  right:10%;
+  z-index:99;
+}
 
 /*
  * Header
@@ -278,6 +285,10 @@ p {
   }
   .footer-notice {
     font-size:1.25em;
+  }
+  #btn-top {
+    bottom:5%;
+    right:5%;
   }
 }
 @media (max-width:520px) {

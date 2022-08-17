@@ -24,17 +24,20 @@
 		</script>
 	</head>
 	<body class="text-center">
+		<button onclick="goToTop()" id="btn-top" title="Go to top" class="btn btn-light btn-lg">&#128285;</button>
+
 		<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 			<header class="masthead">
 				<div class="inner">
 					<h3 class="masthead-brand"><img src="../assets/images/logo2.jpg"></h3>
-					<nav class="nav nav-masthead justify-content-center align-items-center">
+					<nav class="nav nav-masthead justify-content-center align-items-end">
 						<a class="nav-link" href="#manifesto" style="color:#eee">manifesto</a>
 						<a class="nav-link" href="#roadmap" style="color:#eee">roadmap</a>
 						<a class="nav-link" href="#team" style="color:#eee">team</a>
 						<a class="nav-link" href="#faq" style="color:#eee">faq</a>
 						<a class="nav-link" href="#degenlist" style="color:#eee">degen list</a>
 						<a class="nav-link" href="https://www.muse.place/stitch-monkey-lab" target="_blank"><img class="social-links" src="../assets/images/test_tube.png"></a>
+						<a class="nav-link" href="https://www.youtube.com/channel/UCYI7UQFz5WKtsVCXqvfCVnA" target="_blank"><img class="social-links" src="../assets/images/youtube.png"></a>
 						<a class="nav-link" href="https://discord.gg/V5Vw5uSwy6" target="_blank"><img class="social-links" src="../assets/images/discord.png"></a>
 						<a class="nav-link" href="https://twitter.com/nft_stitch" target="_blank"><img class="social-links" src="../assets/images/twitter.png"></a>
 					</nav>
@@ -43,7 +46,7 @@
 
 			<main role="main" class="inner cover">
 				<div class="container">
-					<div class="offset-sm-1 col-sm-10">
+					<div class="col-12 offset-md-1 col-md-10">
 						<div class="block">
 							<div class="row">
 								<img src="../assets/images/anim-lab-whole.gif" class="img-header br-10">
@@ -56,7 +59,7 @@
 										&ldquo;DegenLab&rdquo;
 									</span>
 								</h2>
-								<p class="offset-sm-3 col-sm-6 text-start">
+								<p class="col-12 offset-md-3 col-md-6 text-start">
 									DegenLab holds only the finest tools forged in the metaverse, powered by Solana Chain.<br><br>
 
 									&ldquo;...Let there be life...&rdquo;<br><br>
@@ -94,11 +97,11 @@
 						<a name="manifesto"></a>
 						<div class="divider"></div>
 
-						<div class="row block">
-							<div class="col-lg-6">
+						<div class="row block align-items-center">
+							<div class="col-12 col-lg-6">
 								<img src="../assets/images/anim-experiment.gif" class="img br-10">
 							</div>
-							<div class="col-lg-6">
+							<div class="col-12 col-lg-6">
 								<h2>MANIFESTO</h2>
 								<p class="block-text-left">
 									In the dark, lies a spooky lab,<br>
@@ -122,21 +125,21 @@
 						<a name="roadmap"></a>
 						<div class="divider"></div>
 
-						<div class="row block">
-							<div class="col-lg-6">
+						<div class="row block align-items-center">
+							<div class="col-12 col-lg-6">
 								<h2>ROADMAP</h2>
 								<div class="roadmap text-start">
 									<p class="roadmap-header">Stage 1</p>
 									<ul class="roadmap-text">
-										<li><b>NFT creation</b></li>
-										<li><b>Community building</b></li>
-										<li><b>Mint:</b> this will enable holders to either sell, stake or hold their NFTs and holders can use them in our DegenLab.</li>
+										<li><b>NFT creation:</b> Only 5,555 first generation PFP NFTs will exist on the Solana blockchain.</li>
+										<li><b>Community building:</b> Our community will be our greatest asset, not the NFTs. We want everyone in our community to grow and be successful.</li>
+										<li><b>Mint:</b> This will enable holders to either sell, stake or hold their NFTs and holders can use them in our DegenLab.</li>
 									</ul>
 									
 									<p class="roadmap-header">Stage 2</p>
 									<ul class="roadmap-text">
-										<li><b>DegenLab Creation (Metaverse):</b> The DegenLab is a 3D environment that will enable holders to "stitch up" portions of their NFT to build another new NFT. The portions they "tear out" can be sold, staked, or held. This will allow multiple avenues for revenue. Creating a newer NFT will burn the previous generation which will increases the scarcity of the original collection.</li>
-										<li><b>DegenLab Reveal:</b> The official launch date for the lab.</li>
+										<li><b>DegenLab Creation (Metaverse):</b> The DegenLab is a 3D environment that will enable holders to "stitch up" portions of their NFT to build another new NFT. The portions they "tear out" can be sold, staked, or held. This will allow multiple avenues for revenue (for example, staking will generate tokens which can be used for the lab environment or sold). Creating a newer NFT will burn the previous generation which will increases the scarcity of the original collection.</li>
+										<li><b>DegenLab Reveal:</b> The official launch of the lab.</li>
 										<li><b>DegenDAO:</b> A community backed organization that will empower holders to vote on pivotal points of the project's future.</li>
 									</ul>
 
@@ -154,7 +157,7 @@
 									</ul>
 								</div>
 							</div>
-							<div class="col-lg-6">
+							<div class="col-12 col-lg-6">
 								<img src="../assets/images/tri-reveal.jpg" class="img br-10">
 							</div>
 						</div>
@@ -218,32 +221,34 @@
 						<div class="divider"></div>
 
 						<div class="row block">
-							<h2>FAQ</h2>
-							<p class="block-text-left">
-								<span class="faq-ques">Discord wen?</span><br>
-								<a href="https://discord.gg/V5Vw5uSwy6" target="_blank">It's live!</a> Come join our fam!<br><br>
+							<div class="col-12">
+								<h2>FAQ</h2>
+								<p class="block-text-left">
+									<span class="faq-ques">Discord wen?</span><br>
+									<a href="https://discord.gg/V5Vw5uSwy6" target="_blank">It's live!</a> Come join our fam!<br><br>
 
-								<span class="faq-ques">Mint is how much?</span><br>
-								True degens will get to mint at an affordable price (<a href="https://www.youtube.com/watch?v=51VPJrDdYmw" target="_blank">don't click this</a> &mdash; explicit language; you've been warned).<br><br>
-								
-								<span class="faq-ques">Is it true there are only 5,555 GEN1 Degen PFPs?</span><br>
-								Yes, that rumor is true.<br><br>
+									<span class="faq-ques">Mint is how much?</span><br>
+									True degens will get to mint at an affordable price (<a href="https://www.youtube.com/watch?v=51VPJrDdYmw" target="_blank">don't click this</a> &mdash; explicit language; you've been warned).<br><br>
+									
+									<span class="faq-ques">Is it true there are only 5,555 GEN1 Degen PFPs?</span><br>
+									Yes, that rumor is true.<br><br>
 
-								<span class="faq-ques">Is there a whitelist?</span><br>
-								Yes, get more details by following our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and <a href="https://discord.gg/V5Vw5uSwy6" target="_blank">Discord</a>.<br><br>
+									<span class="faq-ques">Is there a whitelist?</span><br>
+									Yes, get more details by following our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and <a href="https://discord.gg/V5Vw5uSwy6" target="_blank">Discord</a>.<br><br>
 
-								<span class="faq-ques">Can this collection get any uglier?</span><br>
-								Beauty is in the eye of the beholder, but only true degens know the answer!<br><br>
+									<span class="faq-ques">Can this collection get any uglier?</span><br>
+									Beauty is in the eye of the beholder, but only true degens know the answer!<br><br>
 
-								<span class="faq-ques">Is this safe?</span><br>
-								<span class="faq-norm">No animals were harmed</span> during the creation prcoess of these PFPs, no cap fr fr.<br><br>
+									<span class="faq-ques">Is this safe?</span><br>
+									<span class="faq-norm">No animals were harmed</span> during the creation prcoess of these PFPs, no cap fr fr.<br><br>
 
-								<span class="faq-ques">How will the "DegenLab" work? Do I need special equipment and clothing?</span><br>
-								We're currently developing it; but there is a brief <a href="#roadmap">writeup on our roadmap (Stage 2)</a>. We will expand in greater detail via our <a href="https://discord.gg/V5Vw5uSwy6" target="_blank">Discord</a>, in the future.<br><br>
+									<span class="faq-ques">How will the "DegenLab" work? Do I need special equipment and clothing?</span><br>
+									We're currently developing it; but there is a brief <a href="#roadmap">writeup on our roadmap (Stage 2)</a>. We will expand in greater detail via our <a href="https://discord.gg/V5Vw5uSwy6" target="_blank">Discord</a>, in the future.<br><br>
 
-								<span class="faq-ques">OK, so where can I mint this?</span><br>
-								Again, full details will be revealed on our official <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and <a href="https://discord.gg/V5Vw5uSwy6" target="_blank">Discord</a>.<br><br>
-							</p>
+									<span class="faq-ques">OK, so where can I mint this?</span><br>
+									Again, full details will be revealed on our official <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and <a href="https://discord.gg/V5Vw5uSwy6" target="_blank">Discord</a>.<br><br>
+								</p>
+							</div>
 						</div>
 
 						<div class="divider"></div>
@@ -281,6 +286,7 @@
 			</main>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<script>var buttonTop=document.getElementById("btn-top");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>80||document.documentElement.scrollTop>80){buttonTop.style.display = "block";}else{buttonTop.style.display = "none";}}function goToTop(){document.body.scrollTop=0;document.documentElement.scrollTop=0;}scrollFunction();</script>
 		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 	</body>
 </html>
