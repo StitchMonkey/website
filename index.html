@@ -25,7 +25,7 @@
 	<body class="text-center">
 		<button onclick="goToTop()" id="btn-top" title="Go to top" class="btn btn-light btn-lg">&#128285;</button>
 
-		<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+		<div class="d-flex h-100 p-3 mx-auto flex-column">
 			<header>
 				<div class="inner view-desktop">
 					<nav class="nav nav-masthead justify-content-center align-items-end">
@@ -53,85 +53,88 @@
 				</div>
 			</header>
 
-			<main role="main" class="inner cover">
+			<main role="main" class="inner">
 				<div class="container">
 					<div class="col-12 offset-md-1 col-md-10">
-						<div class="block" style="margin-top:150px">
+						<div class="block logo-block">
 							<div class="row view-desktop">
 								<img src="assets/images/anim-intro.gif" alt="Stitch Monkey Logo">
 							</div>
 							<div class="row view-mobile">
 								<img src="assets/images/anim-intro-mobile.gif" alt="Stitch Monkey Logo">
 							</div>
+							<div class="row text-center">
+								<p><a class="btn btn-outline-light btn-lg roadmap-expand" href="#manifesto">&#128584; unstitch</a></p>
+							</div>
 						</div>
 
 						<a name="manifesto"></a>
 						<div class="divider"></div>
 
-						<div class="row block align-items-center">
-							<div class="col-12 col-lg-6">
-								<img src="assets/images/anim-experiment.gif" class="img br-10">
+						<div class="view-desktop align-items-center">
+							<div class="row block">
+								<div class="col-6">
+									<img src="assets/images/anim-experiment.gif" class="img br-10">
+								</div>
+								<div class="col-6">
+									<h2>MANIFESTO</h2>
+									<p class="block-text-left">
+										In the dark, lies a spooky lab,<br>
+										For which only the chosen few collab.<br>
+										The "metaverse" is still vague,<br>
+										Where the "DegenLab" wants to be the next plague.<br><br>
+	
+										The Stitch Monkeys are definitely not pretty,<br>
+										Fallen off a tree as there are many,<br>
+										But this is not the time to be petty&mdash;<br>
+										For within our community, degens are plenty.<br><br>
+										
+										The future may not seem that bright,<br>
+										But within all of us there's a strong might,<br>
+										For all of us together, we can hold a fight,<br>
+										And with this knowledge, power is within sight!
+									</p>
+								</div>
 							</div>
-							<div class="col-12 col-lg-6">
-								<h2>manifesto</h2>
-								<p class="block-text-left">
-									In the dark, lies a spooky lab,<br>
-									For which only the chosen few collab.<br>
-									The "metaverse" is still vague,<br>
-									Where the "DegenLab" wants to be the next plague.<br><br>
-
-									The Stitch Monkeys are definitely not pretty,<br>
-									Fallen off a tree as there are many,<br>
-									But this is not the time to be petty&mdash;<br>
-									For within our community, degens are plenty.<br><br>
-									
-									The future may not seem that bright,<br>
-									But within all of us there's a strong might,<br>
-									For all of us together, we can hold a fight,<br>
-									And with this knowledge, power is within sight!
-								</p>
+							<div class="block tri-reveal">
+								<img id="tri-reveal" src="assets/images/tri-reveal-mag.jpg">
+							</div>
+						</div>
+						<div class="view-mobile align-items-center">
+							<div class="row block">
+								<div class="col-12">
+									<h2>MANIFESTO</h2>
+									<p class="block-text-left">
+										In the dark, lies a spooky lab,<br>
+										For which only the chosen few collab.<br>
+										The "metaverse" is still vague,<br>
+										Where the "DegenLab" wants to be the next plague.<br><br>
+	
+										The Stitch Monkeys are definitely not pretty,<br>
+										Fallen off a tree as there are many,<br>
+										But this is not the time to be petty&mdash;<br>
+										For within our community, degens are plenty.<br><br>
+										
+										The future may not seem that bright,<br>
+										But within all of us there's a strong might,<br>
+										For all of us together, we can hold a fight,<br>
+										And with this knowledge, power is within sight!
+									</p>
+								</div>
+								<div class="col-12">
+									<img src="assets/images/anim-experiment.gif" class="img br-10">
+								</div>
 							</div>
 						</div>
 
 						<a name="roadmap"></a>
 						<div class="divider"></div>
 
-						<div class="row block align-items-center">
-							<div class="col-12 col-lg-6">
-								<h2>roadmap</h2>
-								<div class="roadmap text-start">
-									<p class="roadmap-header">Stage 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='rm-arrow' data-id='stage1'>&#11015;</span></p>
-									<ul class="roadmap-text" id="rmt-stage1">
-										<li><b>NFT creation:</b> Only 5,555 first generation PFP NFTs will exist on the Solana blockchain.</li>
-										<li><b>Community building:</b> Our community will be our greatest asset, not the NFTs. We want everyone in our community to grow and be successful.</li>
-										<li><b>Mint:</b> This will enable holders to either sell, stake or hold their NFTs and holders can use them in our DegenLab. Holders will also automatically participate in royalty rev share from all marketplace sales.</li>
-									</ul>
-									
-									<p class="roadmap-header">Stage 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='rm-arrow' data-id='stage2'>&#11015;</span></p>
-									<ul class="roadmap-text" id="rmt-stage2">
-										<li><b>DegenLab Creation (Metaverse):</b> The DegenLab is a 3D environment that will enable holders to "stitch up" portions of their NFT to build another new NFT. The portions they "tear out" can be sold, staked, or held. This will allow multiple avenues for revenue (for example, staking will generate tokens which can be used for the lab environment or sold). Creating a newer NFT will burn the previous generation which will increases the scarcity of the original collection.</li>
-										<li><b>DegenLab Reveal:</b> The official launch of the lab.</li>
-										<li><b>DegenDAO:</b> A community backed organization that will empower holders to vote on pivotal points of the project's future.</li>
-									</ul>
-
-									<p class="roadmap-header">Stage 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='rm-arrow' data-id='stage3'>&#11015;</span></p>
-									<ul class="roadmap-text" id="rmt-stage3">
-										<li><b>Airdrops:</b> Various types of assets and "building" tools will be dropped to holders to help with further customization and building of their new generation PFP NFTs.</li>
-										<li><b>Merch:</b> Customized clothing that will be uniquely branded and "stitched" together, must like the existing NFTs created in the DegenLab. The merch will be exclusive to our most dedicated holders only.</li>
-										<li><b>Community Events (TBD):</b> A slew of IRL events and meetups with fellow holders; other special meetups in the works. Some may be even be created by the DegenDAO.</li>
-									</ul>
-
-									<p class="roadmap-header">Stage 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='rm-arrow' data-id='stage4'>&#11015;</span></p>
-									<ul class="roadmap-text" id="rmt-stage4">
-										<li><b>Merch drop:</b> Dropping of the special merch to our most dedicated holders.</li>
-										<li><b>More details coming soon:</b> We have so many more ideas that we're keeping a secret for now... we will reveal them so check periodically or follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> and join our <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the details.</li>
-									</ul>
-
-									<p style="font-size:1.5em"><b>Update: <a href="https://stitch-monkey.gitbook.io/stitch-monkey-roadmap-whitepaper/">Read our EXPANDED roadmap and whitepaper here!</a></b></p>
-								</div>
-							</div>
-							<div class="col-12 col-lg-6">
-								<img src="assets/images/tri-reveal.jpg" class="img br-10">
+						<div class="row block">
+							<h2>ROADMAP</h2>
+							<div class="roadmap text-start">
+								<img src="assets/images/roadmap.jpg" class="img">
+								<p class="text-center" style="margin-top:30px"><a class="btn btn-outline-light btn-lg roadmap-expand" href="https://stitch-monkey.gitbook.io/stitch-monkey-roadmap-whitepaper/">Read our EXPANDED roadmap and whitepaper here!</a></p>
 							</div>
 						</div>
 
@@ -139,7 +142,7 @@
 						<div class="divider"></div>
 
 						<div class="row block">
-							<h2>team</h2>
+							<h2>TEAM</h2>
 							<div class="col">
 								<img src="assets/images/asset1.jpg" class="avatar-img">
 								<br><br>
@@ -193,27 +196,105 @@
 						<a name="faq"></a>
 						<div class="divider"></div>
 
-						<div class="row block">
-							<div class="col-12">
-								<h2>faq</h2>
-								<p class="block-text-left">
-									<span class="faq-ques">Mint price?</span><br>
-									<span class="faq-ans">TBD.</span><br><br>
-									
-									<span class="faq-ques">How many?</span><br>
-									5,555.<br><br>
-
-									<span class="faq-ques">Is there WL (Monkey List)?</span><br>
-									Yes, follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a>. WL will get to mint before public.<br><br>
-
-									<span class="faq-ques">Wen mint?</span><br>
-									Follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the alpha.<br><br>
-
-									<span class="faq-ques">Can this collection get any uglier?</span><br>
-									Beauty is in the eye of the beholder, but only true degens know the answer!<br><br>
-								</p>
+						<div class="view-desktop">
+							<div class="row block">
+								<div class="col-12">
+									<h2>FAQ</h2>
+										<p class="block-text-left">
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-6 text-start">Mint price?</div>
+													<div class="col-6 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">TBD.</div>
+											</div>
+											
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-6 text-start">How many?</div>
+													<div class="col-6 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">5,555.</div>
+											</div>
+	
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-6 text-start">Is there WL (Monkey List)?</div>
+													<div class="col-6 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">Yes, follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a>. WL will get to mint before public.</div>
+											</div>
+	
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-6 text-start">Wen mint?</div>
+													<div class="col-6 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">Follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the alpha.</div>
+											</div>
+	
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-6 text-start">Can this collection get any uglier?</div>
+													<div class="col-6 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">Beauty is in the eye of the beholder, but only true degens know the answer!</div>
+											</div>
+										</p>
+									</div>
+								</div>
 							</div>
 						</div>
+						<div class="view_mobile">
+							<div class="row">
+								<div class="col-12">
+									<h2>FAQ</h2>
+										<p class="block-text-left">
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-11 text-start">Mint price?</div>
+													<div class="col-1 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">TBD.</div>
+											</div>
+											
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-11 text-start">How many?</div>
+													<div class="col-1 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">5,555.</div>
+											</div>
+	
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-11 text-start">Is there WL (Monkey List)?</div>
+													<div class="col-1 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">Yes, follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a>. WL will get to mint before public.</div>
+											</div>
+	
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-11 text-start">Wen mint?</div>
+													<div class="col-1 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">Follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the alpha.</div>
+											</div>
+	
+											<div class="faq-block">
+												<div class="faq-ques row">
+													<div class="col-11 text-start">Can this collection get any uglier?</div>
+													<div class="col-1 text-end ques-expand">+</div>
+												</div>
+												<div class="faq-ans">Beauty is in the eye of the beholder, but only true degens know the answer!</div>
+											</div>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
 
 						<div class="divider"></div>
 
@@ -249,21 +330,8 @@
 				</div>
 			</main>
 		</div>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-		<script>var buttonTop=document.getElementById("btn-top");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>80||document.documentElement.scrollTop>80){buttonTop.style.display = "block";}else{buttonTop.style.display = "none";}}function goToTop(){document.body.scrollTop=0;document.documentElement.scrollTop=0;}scrollFunction();</script>
-		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-		<script>
-			$('.rm-arrow').click(function() {
-				var $id = $('#rmt-' + $(this).data('id'));
-				if($($id).is(':visible')) {
-					$id.slideUp();
-					$(this).html('&#11015;');
-				} else {
-					$id.slideDown();
-					$(this).html('&#11014;');
-				}
-			});
-		</script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script>function magnify(e,t){var n,i,o,a;function s(e){var s,d,r;e.preventDefault(),s=function(e){var t,i=0,o=0;return e=e||window.event,t=n.getBoundingClientRect(),i=e.pageX-t.left,o=e.pageY-t.top,i-=window.pageXOffset,o-=window.pageYOffset,{x:i,y:o}}(e),d=s.x,r=s.y,d>n.width-o/t&&(d=n.width-o/t),d<o/t&&(d=o/t),r>n.height-a/t&&(r=n.height-a/t),r<a/t&&(r=a/t),i.style.left=d-o+"px",i.style.top=r-a+"px",i.style.backgroundPosition="-"+(d*t-o+3)+"px -"+(r*t-a+3)+"px"}n=document.getElementById(e),(i=document.createElement("DIV")).setAttribute("class","img-magnifier-glass"),n.parentElement.insertBefore(i,n),i.style.backgroundImage="url('"+n.src+"')",i.style.backgroundRepeat="no-repeat",i.style.backgroundSize=n.width*t+"px "+n.height*t+"px",o=i.offsetWidth/2,a=i.offsetHeight/2,i.addEventListener("mousemove",s),n.addEventListener("mousemove",s),i.addEventListener("touchmove",s),n.addEventListener("touchmove",s)}(function($) {window.fnames=new Array(); window.ftypes=new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';});var $mcj=jQuery.noConflict(true);$(function(){magnify('tri-reveal',3);$('.faq-block').click(function(){var ans=$(this).children('.faq-ans');var ans_alink=ans.children('a');var expand=$(this).children('.faq-ques').children('.ques-expand');if(ans.is(':visible')){$(this).css({'color':'#fff','background':'#030303'});ans_alink.css('color','#fff');ans.slideUp();expand.html('+');}else{$(this).css({'color':'#030303','background':'#fff'});ans_alink.css('color','#030303');ans.slideDown();expand.html('&times;');}});var buttonTop=document.getElementById("btn-top");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>80||document.documentElement.scrollTop>80){buttonTop.style.display="block";}else{buttonTop.style.display="none";}}function goToTop(){document.body.scrollTop=0;document.documentElement.scrollTop=0;}scrollFunction();});</script>
 	</body>
 </html>
