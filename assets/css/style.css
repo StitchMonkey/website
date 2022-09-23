@@ -226,7 +226,7 @@ p {
   position:relative;
 }
 .tri-reveal img {
-  height:800px;
+  height:1000px;
   width:auto;
 }
 .img-magnifier-glass {
@@ -278,6 +278,12 @@ p {
 @media (max-width:1355px) {
 	p {
     font-size:1em;
+  }
+}
+@media (max-width:1200px) {
+  .tri-reveal img {
+    height:auto;
+    width:800px;
   }
 }
 @media (max-width:991px) {
