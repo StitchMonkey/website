@@ -1140,6 +1140,33 @@ body {
   padding: 0 17%;
 }
 
+.loreContainer {
+  width: 100%;
+  float: left;
+  min-height: 580px;
+  padding: 80px 30px;
+  overflow: hidden;
+  position: relative;
+}
+.loreContainer .loreBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /*background: url() right bottom no-repeat;*/
+  -webkit-animation: halfOpacityAnim 7s ease-in-out infinite;
+          animation: halfOpacityAnim 7s ease-in-out infinite;
+}
+.loreContainer .loreWrapper {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.loreContainer .textContainer {
+  padding: 0 17%;
+}
+
 .centerIcon {
   width: 100%;
   float: left;
@@ -1179,7 +1206,7 @@ body {
 .verseContainer .verseLeft {
   width: 43%;
   float: left;
-  padding: 90px 120px;
+  padding: 30px 120px;
 }
 .verseContainer .verseRight {
   width: 55%;
@@ -1424,6 +1451,13 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
+}
+.tbIcon a {
+  border:none;
+}
+.tbName a {
+  border:none;
+  font-weight:700;
 }
 .teamBoxes .teamBox .tbTitle {
   width: 100%;
