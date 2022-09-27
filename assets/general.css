@@ -665,7 +665,8 @@ body {
 .mainBanner .bannerContent .bcText {
   width: 100%;
   float: left;
-  font-size: 13px;
+  font-size: 20px;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.8);
   margin-top: 40px;
 }
