@@ -390,39 +390,39 @@ a.noborder:visited {
 }
 @-webkit-keyframes opacityAnim {
   0% {
-    opacity: 1;
+    opacity: 0.4;
   }
   50% {
-    opacity: 0;
+    opacity: 0.1;
   }
   100% {
-    opacity: 1;
+    opacity: 0.4;
   }
 }
 @keyframes opacityAnim {
   0% {
-    opacity: 1;
+    opacity: 0.4;
   }
   50% {
-    opacity: 0;
+    opacity: 0.1;
   }
   100% {
-    opacity: 1;
+    opacity: 0.4;
   }
 }
 @-webkit-keyframes halfOpacityAnim {
   0% {
-    opacity: 1;
+    opacity: 0.4;
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   100% {
-    opacity: 1;
+    opacity: 0.4;
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
   }
@@ -1037,8 +1037,8 @@ body {
   right: 0;
   bottom: 0;
   background: url(bg-degenlab.jpg) right bottom no-repeat;
-  -webkit-animation: halfOpacityAnim 10s ease infinite;
-          animation: halfOpacityAnim 10s ease infinite;
+  -webkit-animation: OpacityAnim 10s ease infinite;
+          animation: OpacityAnim 10s ease infinite;
 }
 .daoContainer .daoWrapper {
   width: 100%;
