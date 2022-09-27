@@ -1037,8 +1037,8 @@ body {
   right: 0;
   bottom: 0;
   background: url(bg-degenlab.jpg) right bottom no-repeat;
-  -webkit-animation: OpacityAnim 10s ease infinite;
-          animation: OpacityAnim 10s ease infinite;
+  -webkit-animation: opacityAnim 7s ease infinite;
+          animation: opacityAnim 7s ease infinite;
 }
 .daoContainer .daoWrapper {
   width: 100%;
