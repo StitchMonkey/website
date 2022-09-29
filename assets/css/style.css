@@ -143,8 +143,6 @@ header {
 }
 .divider {
   margin:150px auto;
-  border:8px #222;
-  border-style:none none dashed none;
 }
 .block-text-left {
   text-align:left;
