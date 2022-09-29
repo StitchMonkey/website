@@ -269,23 +269,10 @@ main {
   top: 70px;
   z-index: 9;
 }
-.roadmap-block .roadmap-item .road-left .rlPhase {
-  width: 100%;
-  float: left;
-  font-size: 42px;
-  color: #eee;
-  font-weight: 700;
-}
-.roadmap-block .roadmap-item .road-left .rlDate {
-  width: 100%;
-  float: left;
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.6);
-}
 .roadmap-block .roadmap-item .road-left .road-header {
   width: 100%;
   float: left;
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: 700;
   color: #eee;
 }
@@ -434,5 +421,17 @@ main {
 @media (max-width:575px) {
   .art-block {
     width:350px;
+  }
+  .roadmap-block .roadmap-item .road-left .road-header {
+    font-size: 1em;
+  }
+  .roadmap-block .roadmap-item .road-block .road-desc {
+    font-size: 1em;
+  }
+  .roadmap-block .roadmap-item .road-left .road-header {
+    margin-top:12px;
+  }
+  .roadmap-block .roadmap-item .road-right {
+    margin-top:24px;
   }
 }
