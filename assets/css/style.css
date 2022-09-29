@@ -208,7 +208,7 @@ main {
   background:#030303;
   border:1px dashed #aaa;
   border-radius:5px;
-  cursor:poPoppins;
+  cursor:pointer;
   margin-bottom:20px;
   padding:20px;
   text-align:start;
@@ -229,15 +229,6 @@ main {
 .tri-reveal img {
   height:1000px;
   width:auto;
-}
-.img-magnifier-glass {
-  position: absolute;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  cursor: none;
-  /*Set the size of the magnifier glass:*/
-  width:300px;
-  height:300px;
 }
 .ticker-image {
   margin:40px;
