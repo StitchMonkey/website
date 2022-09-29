@@ -4,8 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+		<link rel="stylesheet" href="assets/css/ticker.min.css">
 
 		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -24,360 +23,611 @@
 			gtag('config', 'G-SDNK34VH1W');
 		</script>
 	</head>
-	<body class="text-center">
-		<button onclick="goToTop()" id="btn-top" title="Go to top" class="btn btn-light btn-lg">&#128285;</button>
+	<body>
+		<a name="top" class="clean"></a>
 
-		<div class="d-flex h-100 p-3 mx-auto flex-column">
-			<header>
-				<div class="inner view-desktop">
-					<div class="nav-masthead">
-						<div style="display:inline-block;float:left">
-							<div style="display:inline-block;margin-right:25px"><a class="nav-link" href="#manifesto" style="color:#eee">manifesto</a></div>
-							<div style="display:inline-block;margin-right:25px"><a class="nav-link" href="#team" style="color:#eee">team</a></div>
-							<div style="display:inline-block;margin-right:25px"><a class="nav-link" href="#roadmap" style="color:#eee">roadmap</a></div>
-						</div>
-						<div style="display:inline-block;float:right">
-							<div style="display:inline-block;margin-right:10px"><a class="nav-link" href="https://www.muse.place/stitch-monkey-lab" target="_blank"><img class="social-links" src="assets/images/test_tube.png"></a></div>
-							<div style="display:inline-block;margin-right:10px"><a class="nav-link" href="https://discord.gg/stitch-monkey" target="_blank"><img class="social-links" src="assets/images/discord.png"></a></div>
-							<div style="display:inline-block"><a class="nav-link" href="https://twitter.com/nft_stitch" target="_blank"><img class="social-links" src="assets/images/twitter.png"></a></div>
+		<header>
+			<div class="view-desktop container">
+				<div class="row">
+					<div class="col">
+						<div class="head-logo-block"><a class="nav-link" href="#top"><img src="assets/images/logo_banner.png" class="header-logo"></a></div>
+					</div>
+					<div class="col menu-items-desktop" style="text-align:right;margin-top:6px">
+						<div class="nav-item"><a class="nav-link" href="#manifesto" style="color:#eee">manifesto</a></div>
+						<div class="nav-item"><a class="nav-link" href="#ecosystem" style="color:#eee">rewards & staking</a></div>
+						<div class="nav-item"><a class="nav-link" href="#roadmap" style="color:#eee">roadmap</a></div>
+						<div class="nav-item"><a class="nav-link" href="#team" style="color:#eee">team</a></div>
+						<div class="nav-item"><a class="nav-link" href="https://discord.gg/stitch-monkey" target="_blank"><img class="social-links" src="assets/images/discord.png"></a></div>
+						<div class="nav-item"><a class="nav-link" href="https://twitter.com/nft_stitch" target="_blank"><img class="social-links" src="assets/images/twitter.png"></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="view-mobile container">
+				<div class="d-flex">
+					<div class="flex-shrink-1"><div class="menu">&#9776;</div></div>
+					<div class="w-100">
+						<div class="head-logo-block"><a class="nav-link" href="#top"><img src="assets/images/logo_banner.png" class="header-logo"></a></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu-items-mobile text-center"></div>
+
+		<main>
+			<div class="view-desktop container">
+				<div class="row">
+					<div class="col">
+						<p><img src="assets/images/tri-reveal.jpg" class="hero-img"></p>
+					</div>
+					<div class="col text-start d-flex align-content-center flex-wrap">
+						<h3>Uniting NFTs and the World</h3>
+						<h2>Stitch Monkey</h2>
+						<div>
+							The Stitch Monkey project is a collection of 5,555 unique monkey NFTs collectables living on the Solana blockchain. Your Stitch Monkey is a living attachment of multiple parts of many different animals, representing all the diverse and vibrant global cultures.
+							<br><br>
+							Every holder (scientist) will be a representative of "stitching" together our vibrant and collaborative community. Having the ability to just own a "part" of a larger whole will enable any and all individuals to come together. What will you create?
 						</div>
 					</div>
 				</div>
-				<div class="inner view-mobile">
-					<nav class="nav nav-masthead justify-content-center align-items-center">
-						<a class="nav-link" href="#manifesto" style="color:#eee">manifesto</a>
-						<a class="nav-link" href="#team" style="color:#eee">team</a>
-						<a class="nav-link" href="#roadmap" style="color:#eee">roadmap</a>
-					</nav>
-					<nav class="nav nav-masthead justify-content-center align-items-center">
-						<a class="nav-link" href="https://www.muse.place/stitch-monkey-lab" target="_blank"><img class="social-links" src="assets/images/test_tube.png"></a>
-						<a class="nav-link" href="https://discord.gg/stitch-monkey" target="_blank"><img class="social-links" src="assets/images/discord.png"></a>
-						<a class="nav-link" href="https://twitter.com/nft_stitch" target="_blank"><img class="social-links" src="assets/images/twitter.png"></a>
-					</nav>
-				</div>
-			</header>
-
-			<main role="main" class="inner">
-				<div class="container">
-					<div class="col-12 offset-md-1 col-md-10">
-						<div class="block logo-block">
-							<div class="row view-desktop">
-								<img src="assets/images/anim-intro.gif" alt="Stitch Monkey Logo">
-							</div>
-							<div class="row view-mobile">
-								<img src="assets/images/anim-intro-mobile.gif" alt="Stitch Monkey Logo">
-							</div>
-							<div class="row text-center">
-								<p><a class="btn btn-outline-light btn-lg roadmap-expand" href="#manifesto">&#128584; unstitch</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<a name="manifesto"></a>
-				<div class="divider"></div>
-
-				<div class="container">
-					<div class="col-12 offset-md-1 col-md-10">
-						<div class="view-desktop align-items-center">
-							<div class="row block">
-								<div class="col-6">
-									<img src="assets/images/anim-experiment.gif" class="img br-10">
-								</div>
-								<div class="col-6">
-									<h2>MANIFESTO</h2>
-									<p class="block-text-left">
-										In the dark, lies a spooky lab,<br>
-										For which only the chosen few collab.<br>
-										The "metaverse" is still vague,<br>
-										Where the "DegenLab" wants to be the next plague.<br><br>
-	
-										The Stitch Monkeys are definitely not pretty,<br>
-										Fallen off a tree as there are many,<br>
-										But this is not the time to be petty&mdash;<br>
-										For within our community, degens are plenty.<br><br>
-										
-										The future may not seem that bright,<br>
-										But within all of us there's a strong might,<br>
-										For all of us together, we can hold a fight,<br>
-										And with this knowledge, power is within sight!
-									</p>
-								</div>
-							</div>
-							<div class="block tri-reveal">
-								<img id="tri-reveal" src="assets/images/tri-reveal-mag.jpg">
-							</div>
-						</div>
-						<div class="view-mobile align-items-center">
-							<div class="row block">
-								<div class="col-12">
-									<h2>MANIFESTO</h2>
-									<p class="block-text-left">
-										In the dark, lies a spooky lab,<br>
-										For which only the chosen few collab.<br>
-										The "metaverse" is still vague,<br>
-										Where the "DegenLab" wants to be the next plague.<br><br>
-	
-										The Stitch Monkeys are definitely not pretty,<br>
-										Fallen off a tree as there are many,<br>
-										But this is not the time to be petty&mdash;<br>
-										For within our community, degens are plenty.<br><br>
-										
-										The future may not seem that bright,<br>
-										But within all of us there's a strong might,<br>
-										For all of us together, we can hold a fight,<br>
-										And with this knowledge, power is within sight!
-									</p>
-								</div>
-								<div class="col-12">
-									<img src="assets/images/anim-experiment.gif" class="img br-10">
-								</div>
+			</div>
+			<div class="view-mobile container">
+				<div class="row">
+					<div class="col text-start">
+						<div class="text-center"><img src="assets/images/tri-reveal.jpg" class="hero-img"></div>
+						<div>
+							<h3 style="font-weight:100">Uniting NFTs and the World</h3>
+							<h2>Stitch Monkey</h2>
+							<div>
+								The Stitch Monkey project is a collection of 5,555 unique monkey NFTs collectables living on the Solana blockchain. Your Stitch Monkey is a living attachment of multiple parts of many different animals, representing all the diverse and vibrant global cultures.
+								<br><br>
+								Every holder (scientist) will be a representative of "stitching" together our vibrant and collaborative community. Having the ability to just own a "part" of a larger whole will enable any and all individuals to come together. What will you create?
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<a name="team"></a>
-				<div class="divider"></div>
+			<a name="manifesto" class="clean"></a>
+			<div class="divider"></div>
 
-				<div class="container">
-					<div class="col-12">
+			<div class="container">
+				<div class="col">
+					<div class="view-desktop man-block">
 						<div class="row block">
-							<h2>TEAM</h2>
-							<div class="col">
-								<img src="assets/images/asset1.jpg" class="avatar-img">
-								<br><br>
-								<p>
-									<span class="avatar-name">Stitched Up Leader</span><br>
-									<span class="avatar-title">Founder & Dev</span>
-								</p>
+							<div class="col-6">
+								<img src="assets/images/anim-experiment.gif" class="img br-10">
 							</div>
-							<div class="col">
-								<img src="assets/images/avatar-slayffin.jpg" class="avatar-img">
-								<br><br>
-								<p>
-									<span class="avatar-name">Slayffin</span><br>
-									<span class="avatar-title">Head Degen</span>
-								</p>
-							</div>
-							<div class="col">
-								<img src="assets/images/avatar-pwo.jpg" class="avatar-img">
-								<br><br>
-								<p>
-									<span class="avatar-name">Pwoseidon</span><br>
-									<span class="avatar-title">Mad Scientist</span>
-								</p>
-							</div>
-							<div class="col">
-								<img src="assets/images/asset4.png" class="avatar-img">
-								<br><br>
-								<p>
-									<span class="avatar-name">Bullish Brad</span><br>
-									<span class="avatar-title">Front-End Dev</span>
-								</p>
-							</div>
-							<div class="col">
-								<img src="assets/images/asset5.png" class="avatar-img">
-								<br><br>
-								<p>
-									<span class="avatar-name">Spatula</span><br>
-									<span class="avatar-title">Back-end & 3D Dev</span>
-								</p>
-							</div>
-							<div class="col">
-								<img src="assets/images/asset6.png" class="avatar-img">
-								<br><br>
-								<p>
-									<span class="avatar-name">Paul G.</span><br>
-									<span class="avatar-title">Lead Artist</span>
+							<div class="col-6 d-flex align-content-center flex-wrap">
+								<h2 class="text-start">Manifesto</h2>
+								<p class="block-text-left">
+									In the dark, lies a spooky lab,<br>
+									For which only the chosen few collab.<br>
+									The "metaverse" is still vague,<br>
+									Where the "DegenLab" wants to be the next plague.<br><br>
+
+									The Stitch Monkeys are definitely not pretty,<br>
+									Fallen off a tree as there are many,<br>
+									But this is not the time to be petty&mdash;<br>
+									For within our community, degens are plenty.<br><br>
+									
+									The future may not seem that bright,<br>
+									But within all of us there's a strong might,<br>
+									For all of us together, we can hold a fight,<br>
+									And with this knowledge, power is within sight!
 								</p>
 							</div>
 						</div>
 					</div>
-				</div>
+					<div class="view-mobile man-block">
+						<div class="row block">
+							<div class="col-12">
+								<h2>Manifesto</h2>
+								<p class="block-text-left">
+									In the dark, lies a spooky lab,<br>
+									For which only the chosen few collab.<br>
+									The "metaverse" is still vague,<br>
+									Where the "DegenLab" wants to be the next plague.<br><br>
 
-				<a name="roadmap"></a>
-				<div class="divider"></div>
-
-				<div class="container">
-					<div class="col-12">
-						<h2>ROADMAP</h2>
-
-						<div id="roadmap-carousel" class="carousel slide" data-bs-ride="true">
-							<div class="carousel-indicators">
-								<button type="button" data-bs-target="#roadmap-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-								<button type="button" data-bs-target="#roadmap-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-								<button type="button" data-bs-target="#roadmap-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								<button type="button" data-bs-target="#roadmap-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+									The Stitch Monkeys are definitely not pretty,<br>
+									Fallen off a tree as there are many,<br>
+									But this is not the time to be petty&mdash;<br>
+									For within our community, degens are plenty.<br><br>
+									
+									The future may not seem that bright,<br>
+									But within all of us there's a strong might,<br>
+									For all of us together, we can hold a fight,<br>
+									And with this knowledge, power is within sight!
+								</p>
 							</div>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="assets/images/roadmap-stage1.jpg" alt="Stage 1">
-								</div>
-								<div class="carousel-item">
-									<img src="assets/images/roadmap-stage2.jpg" alt="Stage 2">
-								</div>
-								<div class="carousel-item">
-									<img src="assets/images/roadmap-stage3.jpg" alt="Stage 3">
-								</div>
-								<div class="carousel-item">
-									<img src="assets/images/roadmap-stage4.jpg" alt="Stage 4">
-								</div>
+							<div class="col-12">
+								<img src="assets/images/anim-experiment.gif" class="img br-10">
 							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#roadmap-carousel" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button class="carousel-control-next" type="button" data-bs-target="#roadmap-carousel" data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
 						</div>
-
-						<p class="text-center" style="margin-top:30px"><a class="btn btn-outline-light btn-lg roadmap-expand" href="https://stitch-monkey.gitbook.io/stitch-monkey-roadmap-whitepaper/">Read our EXPANDED Roadmap / Whitepaper here!</a></p>
 					</div>
-					
 				</div>
+			</div>
 
-				<a name="faq"></a>
-				<div class="divider"></div>
+			<a name="ecosystem" class="clean"></a>
+			<div class="divider"></div>
 
-				<div class="container">
-					<div class="col-12">
-						<div class="view-desktop">
-							<div class="row block">
-								<div class="col-12">
-									<h2>FAQ</h2>
-										<p class="block-text-left">
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-6 text-start">Mint price?</div>
-													<div class="col-6 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">TBD.</div>
+			<div class="container">
+				<div class="view-desktop">
+					<div class="row">
+						<div class="col d-flex align-content-center flex-wrap">
+							<h2 class="text-start">Ecosystem</h2>
+							<p class="block-text-left">
+								We want our community to reap the benefits of the overall economy. A lot of things we will present to the community are rewards such as staking and revenue share.<br><br>
+								The <a href='#degendao'>DegenDAO</a> will be partly responsible for executing what goes and what stays; how much should be allocated to the community and to the team. We want to allow the community to have their voice heard and all the power needed to keep the project moving forward in the future.
+								<br><br>
+								In addition to the usual staking/holder rewards, we will also throw regular giveaways & raffles as appreciation for joining our project, and to help w/ the overall longetivity of the project core.
+							</p>
+						</div>
+						<div class="col">
+							<img src="assets/images/eco.png" class="img br-10">
+						</div>
+					</div>
+				</div>
+				<div class="view-mobile">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center">Ecosystem</h2>
+							<p class="block-text-left">
+								We want our community to reap the benefits of the overall economy. A lot of things we will present to the community are rewards such as staking and revenue share.<br><br>
+								The <a href='#degendao'>DegenDAO</a> will be partly responsible for executing what goes and what stays; how much should be allocated to the community and to the team. We want to allow the community to have their voice heard and all the power needed to keep the project moving forward in the future.
+								<br><br>
+								In addition to the usual staking/holder rewards, we will also throw regular giveaways & raffles as appreciation for joining our project, and to help w/ the overall longetivity of the project core.
+							</p>
+							<img src="assets/images/eco.png" class="img br-10">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a name="degendao" class="clean"></a>
+			<div class="divider"></div>
+
+			<div class="container">
+				<div class="view-desktop">
+					<div class="row">
+						<div class="col">
+							<img src="assets/images/degendao.png" class="img br-10">
+						</div>
+						<div class="col d-flex align-content-center flex-wrap">
+							<h2 class="text-start">DegenDAO</h2>
+							<p class="block-text-left">
+								The DegenDAO is a community backed organization that will empower holders to vote on pivotal points of the project's future.
+								<br><br>
+								Many things such as voting for the future of the project, to how much shared revenue to allocate between the founders and the holders will be decided and dictated by the DAO members. Other aspects can include whatever the community wants to help further the future and success of the project.
+								<br><br>
+								In other words, it won't be solely up to the team to make decisions; it will be up to our holders and community overall.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="view-mobile">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center">DegenDAO</h2>
+							<p class="block-text-left">
+								The DegenDAO is a community backed organization that will empower holders to vote on pivotal points of the project's future.
+								<br><br>
+								Many things such as voting for the future of the project, to how much shared revenue to allocate between the founders and the holders will be decided and dictated by the DAO members. Other aspects can include whatever the community wants to help further the future and success of the project.
+								<br><br>
+								In other words, it won't be solely up to the team to make decisions; it will be up to our holders and community overall.
+							</p>
+							<img src="assets/images/degendao.png" class="img br-10">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a name="lore" class="clean"></a>
+			<div class="divider"></div>
+
+			<div class="container">
+				<div class="view-desktop">
+					<div class="row">
+						<div class="col d-flex align-content-center flex-wrap">
+							<h2 class="text-start">Lore</h2>
+							<p class="block-text-left">
+								A top secret project that was never seen by the public until a found footage film was obtained. Some say it's a conspiracy and this is all a distraction.<br><br>
+			
+								Upon release of the footage a group ventures into the secret location greeted by a sealed door. On the wall there was a note that had strange symbols scribbled. The group has to solve this puzzle to get through and make their way to the next door with a seal.<br><br>
+								
+								Around them was a lab that seemed to smell of roadkill and dead carcasses. They are greeted with another obscure note with more cryptic symbols. This one was different, it required them to push 2 buttons on each side of the room. The group splits up and presses both buttons at the same time.<br><br>
+								
+								Upon the seal breaking they hear a loud thunder and swirling static and they were in shock. Surrounding them were capsules filled with green liquid and inside where monstrosities. Some in the group were shaken and begin to run back towards the door only for it to seal behind them.<br><br>
+								
+								They had to progress through the lab and reach the center plays. The GORZ have awoken and the scientist appears....
+							</p>
+						</div>
+						<div class="col">
+							<img src="assets/images/lore.png" class="img br-10">
+						</div>
+					</div>
+				</div>
+				<div class="view-mobile">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center">Lore</h2>
+							<p class="block-text-left">
+								A top secret project that was never seen by the public until a found footage film was obtained. Some say it's a conspiracy and this is all a distraction.<br><br>
+			
+								Upon release of the footage a group ventures into the secret location greeted by a sealed door. On the wall there was a note that had strange symbols scribbled. The group has to solve this puzzle to get through and make their way to the next door with a seal.<br><br>
+								
+								Around them was a lab that seemed to smell of roadkill and dead carcasses. They are greeted with another obscure note with more cryptic symbols. This one was different, it required them to push 2 buttons on each side of the room. The group splits up and presses both buttons at the same time.<br><br>
+								
+								Upon the seal breaking they hear a loud thunder and swirling static and they were in shock. Surrounding them were capsules filled with green liquid and inside where monstrosities. Some in the group were shaken and begin to run back towards the door only for it to seal behind them.<br><br>
+								
+								They had to progress through the lab and reach the center plays. The GORZ have awoken and the scientist appears....
+							</p>
+							<img src="assets/images/lore.png" class="img br-10">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a name="degenlab" class="clean"></a>
+			<div class="divider"></div>
+
+			<div class="container">
+				<div class="col">
+					<div class="view-desktop lab-block">
+						<div class="row block">
+							<div class="col-6">
+								<img src="assets/images/corridor.gif" class="img br-10">
+							</div>
+							<div class="col-6 d-flex align-content-center flex-wrap">
+								<h2 class="text-start">DegenLab</h2>
+								<p class="block-text-left">
+									The DegenLab is where you (scientists) will be able to "stitch" together multiple NFT parts into a new, unique whole PFP NFT, that's only unique to you.
+									<br><br>
+									The DegenLab is also a gateway to introduce you to another world of economics, and we will introduce rewards and a special token for all holders.
+									<br><br>
+            						<a href="https://www.youtube.com/watch?v=nbY7zskgWNg" target="_blank">A sneak peek of what the DegenLab will look like can be found here.</a>
+									<br><br>
+									<a href="https://www.muse.place/stitch-monkey-lab" target="_blank" class="clean"><img src="assets/images/test_tube.png"></a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="view-mobile man-block">
+						<div class="row block">
+							<div class="col-12 d-flex align-content-center flex-wrap">
+								<h2>DegenLab</h2>
+								<p class="block-text-left">
+									The DegenLab is where you (scientists) will be able to "stitch" together multiple NFT parts into a new, unique whole PFP NFT, that's only unique to you.
+									<br><br>
+									The DegenLab is also a gateway to introduce you to another world of economics, and we will introduce rewards and a special token for all holders.
+									<br><br>
+            						<a href="https://www.youtube.com/watch?v=nbY7zskgWNg" target="_blank">A sneak peek of what the DegenLab will look like can be found here.</a>
+									<br><br>
+									<a href="https://www.muse.place/stitch-monkey-lab" target="_blank" class="clean"><img src="assets/images/test_tube.png"></a>
+								</p>
+							</div>
+							<div class="col-12">
+								<img src="assets/images/corridor.gif" class="img br-10">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<a name="art" class="clean"></a>
+			<div class="divider"></div>
+
+			<div class="container art-block">
+				<div class="row" style="width:100%">
+					<h2 class="text-center">Art</h2>
+					<div class="col art-ticker">
+						<div><img class="ticker-image" src="assets/images/monkeys/1.png"></div>
+						<div><img class="ticker-image" src="assets/images/monkeys/2.png"></div>
+						<div><img class="ticker-image" src="assets/images/monkeys/3.png"></div>
+						<div><img class="ticker-image" src="assets/images/monkeys/4.png"></div>
+						<div><img class="ticker-image" src="assets/images/monkeys/5.png"></div>
+						<div><img class="ticker-image" src="assets/images/monkeys/6.png"></div>
+						<div><img class="ticker-image" src="assets/images/monkeys/7.png"></div>
+						<div><img class="ticker-image" src="assets/images/monkeys/8.png"></div>	
+					</div>
+				</div>
+			</div>
+
+			<a name="roadmap" class="clean"></a>
+			<div class="divider"></div>
+
+			<div class="container">
+				<div class="col">
+					<h2 class="text-center">Roadmap</h2>
+
+					<div class="container">
+						<div class="row">
+							<div class="col text-center">
+								<div class="roadmap-block">
+									<div class="roadmap-item">
+										<div class="road-left">
+											<div class="road-header">Stage 1</div>
+										</div>
+										<div class="road-right">
+											<div class="road-block">
+												<div class="road-desc">NFT creation</div>
+												<div class="road-desc">Community building</div>
+												<div class="road-desc">Mint</div>
 											</div>
-											
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-6 text-start">How many?</div>
-													<div class="col-6 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">5,555.</div>
+										</div>
+									</div>
+									<div class="roadmap-item">
+										<div class="road-left">
+											<div class="road-header">Stage 2</div>
+										</div>
+										<div class="road-right">
+											<div class="road-block">
+												<div class="road-desc">DegenLab Creation (Metaverse)</div>
+												<div class="road-desc">DegenLab Reveal</div>
+												<div class="road-desc">DegenDAO</div>
 											</div>
-	
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-6 text-start">Is there WL (Monkey List)?</div>
-													<div class="col-6 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">Yes, follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a>. WL will get to mint before public.</div>
+										</div>
+									</div>
+									<div class="roadmap-item">
+										<div class="road-left">
+											<div class="road-header">Stage 3</div>
+										</div>
+										<div class="road-right">
+											<div class="road-block">
+												<div class="road-desc">Airdrops</div>
+												<div class="road-desc">Merch</div>
+												<div class="road-desc">Community Events (TBA)</div>
 											</div>
-	
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-6 text-start">Wen mint?</div>
-													<div class="col-6 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">Follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the alpha.</div>
+										</div>
+									</div>
+									<div class="roadmap-item">
+										<div class="road-left">
+											<div class="road-header">Stage 4</div>
+										</div>
+										<div class="road-right">
+											<div class="road-block">
+												<div class="road-desc">Merch drop</div>
+												<div class="road-desc">More to come...</div>
 											</div>
-	
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-6 text-start">Can this collection get any uglier?</div>
-													<div class="col-6 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">Beauty is in the eye of the beholder, but only true degens know the answer!</div>
+										</div>
+									</div>
+									<div class="roadmap-item">
+										<div class="road-left">
+											<div class="road-header">Extra</div>
+										</div>
+										<div class="road-right">
+											<div class="road-block">
+												<div class="road-desc"><a href="https://stitch-monkey.gitbook.io/stitch-monkey-roadmap-whitepaper/" target="_blank">Click here for our EXPANDED Roadmap</a></div>
 											</div>
-										</p>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="view-mobile">
-							<div class="row">
-								<div class="col-12">
-									<h2>FAQ</h2>
-										<p class="block-text-left">
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-11 text-start">Mint price?</div>
-													<div class="col-1 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">TBD.</div>
-											</div>
-											
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-11 text-start">How many?</div>
-													<div class="col-1 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">5,555.</div>
-											</div>
-	
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-11 text-start">Is there WL (Monkey List)?</div>
-													<div class="col-1 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">Yes, follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a>. WL will get to mint before public.</div>
-											</div>
-	
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-11 text-start">Wen mint?</div>
-													<div class="col-1 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">Follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the alpha.</div>
-											</div>
-	
-											<div class="faq-block">
-												<div class="faq-ques row">
-													<div class="col-11 text-start">Can this collection get any uglier?</div>
-													<div class="col-1 text-end ques-expand">+</div>
-												</div>
-												<div class="faq-ans">Beauty is in the eye of the beholder, but only true degens know the answer!</div>
-											</div>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<div class="divider"></div>
+					</div>
+				</div>
+			</div>
 
-						<div class="row block footer-alert">
-							<img src="assets/images/eyes-closeup.jpg" class="img-coming-soon">
-							<div class="alert alert-dark footer-notice">&#129697;&#128586;&#128142;&#129514; more info to come soon!</div>
-						</div>
+			<a name="team" class="clean"></a>
+			<div class="divider"></div>
 
-						<div class="row align-items-end">
-							<div class="text-start col-12 col-sm-9 mbot20">
-								<a name="degenlist"></a>
-								<div id="mc_embed_signup">
-									<form action="https://xyz.us11.list-manage.com/subscribe/post?u=6820c9ff13d9285cc6630ad25&amp;id=1e6c230455&amp;f_id=00708fe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-										<div class="row align-items-end">
-											<div class="col-12 col-sm-6">
-												<label for="mce-EMAIL" class="col-form-label">Get on the Degen List</label>
-												<input type="email" class="form-control form-control-sm" value="" name="EMAIL" placeholder="Email Address">
-											</div>
-											<div class="col-12 col-sm-6">
-												<input type="submit" value="Degen Me" name="subscribe" id="mc-embedded-subscribe" class="btn btn-outline-light btn-sm">
-											</div>
-										</div>
-										<div id="mce-responses" class="clear foot">
-											<div class="response" id="mce-error-response" style="color:#fff;display:none"></div>
-											<div class="response" id="mce-success-response" style="color:#fff;display:none"></div>
-										</div>
-									</form>
-								</div>
-							</div>
-							<div class="text-end col-12 col-sm-3 mbot20">&copy;2022 Stitch Monkey Productions</div>
+			<div class="container">
+				<div class="col-12">
+					<div class="row block text-center">
+						<h2>Team</h2>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/asset1.jpg" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Stitched Up Leader</span><br>
+								<span class="pfp-title"><a href="https://twitter.com/nft_stitch" target="_blank" style="border:none;"><img src="assets/images/twitter.png" style="height:18px;width:auto"> @nft_stitch</a></span><br>
+								<span class="pfp-title">Founder & Dev</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/pfp-slayffin.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Slayffin</span><br>
+								<span class="pfp-title"><a href="https://twitter.com/Slayffin2" target="_blank" style="border:none;"><img src="assets/images/twitter.png" style="height:18px;width:auto"> @Slayffin2</a></span><br>
+								<span class="pfp-title">Head Degen</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/pfp-pwo.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Pwoseidon</span><br>
+								<span class="pfp-title"><a href="https://twitter.com/Pwoseidonn" target="_blank" style="border:none;"><img src="assets/images/twitter.png" style="height:18px;width:auto"> @Pwoseidonn</a></span><br>
+								<span class="pfp-title">Mad Scientist</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/pfp-sculptor.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Sculptor</span><br>
+								<span class="pfp-title"><a href="https://twitter.com/SculptorNft" target="_blank" style="border:none;"><img src="assets/images/twitter.png" style="height:18px;width:auto"> @SculptorNft</a></span><br>
+								<span class="pfp-title">Collab Manager</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/pfp-nur.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">◎nur</span><br>
+								<span class="pfp-title"><a href="https://twitter.com/0xc06" target="_blank" style="border:none;"><img src="assets/images/twitter.png" style="height:18px;width:auto"> @0xc06</a></span><br>
+								<span class="pfp-title">Influencer & Collab Manager</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/pfp-robreena.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Robreena</span><br>
+								<span class="pfp-title"><a href="https://twitter.com/cheyennelabs" target="_blank" style="border:none;"><img src="assets/images/twitter.png" style="height:18px;width:auto"> @cheyennelabs</a></span><br>
+								<span class="pfp-title">Collab Manager</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/asset4.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Bullish Brad</span><br>
+								<span class="pfp-title">Front-End Dev</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/asset5.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Spatula</span><br>
+								<span class="pfp-title">Back-End & 3D Dev</span>
+							</p>
+						</div>
+						<div class="col" style="margin-top:20px">
+							<img src="assets/images/asset6.png" class="pfp-img">
+							<br>
+							<p>
+								<span class="pfp-name">Paul G.</span><br>
+								<span class="pfp-title">Lead Artist</span>
+							</p>
 						</div>
 					</div>
 				</div>
-			</main>
-		</div>
+			</div>
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script><script>var buttonTop=document.getElementById("btn-top");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>80||document.documentElement.scrollTop>80){buttonTop.style.display="block";}else{buttonTop.style.display="none";}};function goToTop(){document.body.scrollTop=0;document.documentElement.scrollTop=0;}scrollFunction();function magnify(e,t){var n,i,o,a;function s(e){var s,d,r;e.preventDefault(),s=function(e){var t,i=0,o=0;return e=e||window.event,t=n.getBoundingClientRect(),i=e.pageX-t.left,o=e.pageY-t.top,i-=window.pageXOffset,o-=window.pageYOffset,{x:i,y:o}}(e),d=s.x,r=s.y,d>n.width-o/t&&(d=n.width-o/t),d<o/t&&(d=o/t),r>n.height-a/t&&(r=n.height-a/t),r<a/t&&(r=a/t),i.style.left=d-o+"px",i.style.top=r-a+"px",i.style.backgroundPosition="-"+(d*t-o+3)+"px -"+(r*t-a+3)+"px"}n=document.getElementById(e),(i=document.createElement("DIV")).setAttribute("class","img-magnifier-glass"),n.parentElement.insertBefore(i,n),i.style.backgroundImage="url('"+n.src+"')",i.style.backgroundRepeat="no-repeat",i.style.backgroundSize=n.width*t+"px "+n.height*t+"px",o=i.offsetWidth/2,a=i.offsetHeight/2,i.addEventListener("mousemove",s),n.addEventListener("mousemove",s),i.addEventListener("touchmove",s),n.addEventListener("touchmove",s)}(function($) {window.fnames=new Array(); window.ftypes=new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';});var $mcj=jQuery.noConflict(true);$(function(){magnify('tri-reveal',3);$('.faq-block').click(function(){var ans=$(this).children('.faq-ans');var ans_alink=ans.children('a');var expand=$(this).children('.faq-ques').children('.ques-expand');if(ans.is(':visible')){$(this).css({'color':'#fff','background':'#030303'});ans_alink.css('color','#fff');ans.slideUp();expand.html('+');}else{$(this).css({'color':'#030303','background':'#fff'});ans_alink.css('color','#030303');ans.slideDown();expand.html('&times;')}})})</script>
+			<a name="faq" class="clean"></a>
+			<div class="divider"></div>
+
+			<div class="container">
+				<div class="col-12">
+					<div class="view-desktop">
+						<div class="row block">
+							<div class="col-12">
+								<h2 class="text-center">FAQ</h2>
+									<p class="block-text-left">
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-6 text-start">Mint price?</div>
+												<div class="col-6 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">TBD.</div>
+										</div>
+										
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-6 text-start">How many?</div>
+												<div class="col-6 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">5,555.</div>
+										</div>
+
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-6 text-start">Is there WL (Monkey List)?</div>
+												<div class="col-6 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">Yes, follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a>. WL will get to mint before public.</div>
+										</div>
+
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-6 text-start">Wen mint?</div>
+												<div class="col-6 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">Follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the alpha.</div>
+										</div>
+
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-6 text-start">Can this collection get any uglier?</div>
+												<div class="col-6 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">Beauty is in the eye of the beholder, but only true degens know the answer!</div>
+										</div>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="view-mobile">
+						<div class="row">
+							<div class="col-12">
+								<h2>FAQ</h2>
+									<p class="block-text-left">
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-11 text-start">Mint price?</div>
+												<div class="col-1 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">TBD.</div>
+										</div>
+										
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-11 text-start">How many?</div>
+												<div class="col-1 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">5,555.</div>
+										</div>
+
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-11 text-start">Is there WL (Monkey List)?</div>
+												<div class="col-1 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">Yes, follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a>. WL will get to mint before public.</div>
+										</div>
+
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-11 text-start">Wen mint?</div>
+												<div class="col-1 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">Follow our <a href="https://twitter.com/nft_stitch" target="_blank">Twitter</a> account and join <a href="https://discord.gg/stitch-monkey" target="_blank">Discord</a> for all the alpha.</div>
+										</div>
+
+										<div class="faq-block">
+											<div class="faq-ques row">
+												<div class="col-11 text-start">Can this collection get any uglier?</div>
+												<div class="col-1 text-end ques-expand">+</div>
+											</div>
+											<div class="faq-ans">Beauty is in the eye of the beholder, but only true degens know the answer!</div>
+										</div>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row align-items-end">
+						<div class="text-start col-12 col-sm-9 mbot20">
+							<a name="degenlist"></a>
+							<div id="mc_embed_signup">
+								<form action="https://xyz.us11.list-manage.com/subscribe/post?u=6820c9ff13d9285cc6630ad25&amp;id=1e6c230455&amp;f_id=00708fe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									<div class="row align-items-end">
+										<div class="col-12 col-sm-6">
+											<label for="mce-EMAIL" class="col-form-label">Get on the Degen List</label>
+											<input type="email" class="form-control form-control-sm" value="" name="EMAIL" placeholder="Email Address">
+										</div>
+										<div class="col-12 col-sm-6">
+											<input type="submit" value="Degen Me" name="subscribe" id="mc-embedded-subscribe" class="btn btn-outline-light btn-sm">
+										</div>
+									</div>
+									<div id="mce-responses" class="clear foot">
+										<div class="response" id="mce-error-response" style="color:#fff;display:none"></div>
+										<div class="response" id="mce-success-response" style="color:#fff;display:none"></div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="text-end col-12 col-sm-3 mbot20">&copy;2022 Stitch Monkey Productions</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script><script src="assets/js/ticker.min.js"></script><script>$(".art-ticker").ticker();(function($) {window.fnames=new Array(); window.ftypes=new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';});var $mcj=jQuery.noConflict(true);$('.faq-block').click(function(){var ans=$(this).children('.faq-ans');var ans_alink=ans.children('a');var expand=$(this).children('.faq-ques').children('.ques-expand');if(ans.is(':visible')){$(this).css({'color':'#fff','background':'#030303'});ans_alink.css('color','#fff');ans.slideUp();expand.html('+');}else{$(this).css({'color':'#030303','background':'#fff'});ans_alink.css('color','#030303');ans.slideDown();expand.html('&times;')}});$('.menu').click(function(){$('.menu-items-mobile').html('<div class="menu-close">&times;</div>'+$('.menu-items-desktop').html()).slideDown();$('.menu').addClass('blackout')});$('.menu-items-mobile').click(function(){$(this).slideUp();$('.menu').removeClass('blackout')})</script>
 	</body>
 </html>
